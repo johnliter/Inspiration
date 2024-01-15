@@ -1,0 +1,114 @@
+/* re1styles.css */
+
+/* Common styling for both carousel and static items */
+body {
+    background: linear-gradient(to bottom, #ecf0f1, #bdc3c7); /* Gradient for cloud background */
+    color: #333; /* Dark gray text color */
+}
+
+.container {
+    margin-bottom: 20px; /* Add some spacing between each blockquote and cite pair */
+    color: #3498db; /* Blue header text color */
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+blockquote {
+    margin-bottom: 0;  /* Remove margin after the blockquote */
+}
+
+cite {
+    margin-top: 0; /* Remove margin before the cite */
+    font-style: italic;
+    text-align: center;
+    display: block;
+    margin-top: 0.5em; /* Adjust the margin between blockquote and cite */
+}
+
+/* Styling for carousel items */
+#carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-item {
+    display: none;
+}
+
+/* Styling for static items */
+.static-item {
+    display: block;
+    margin: 0 auto; /* Center the static items */
+    width: 50%; /* Adjust the width as needed */
+    text-align: center;
+}
+
+#god-prayer {
+    text-align: center;
+}
+
+hr {
+    color:#333; /* Dark gray horizontal rule color */;
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the hr */
+}
+
+/* Add these lines in your existing CSS file (re1styles.css) or modify accordingly */
+
+#like-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#like-button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#like-counter {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+/* Sticky Header */
+header {
+    position: sticky;
+    top: 0;
+    background: rgb(157,157,171);
+    background: -moz-radial-gradient(circle, rgba(157,157,171,1) 26%, rgba(0,102,251,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(157,157,171,1) 26%, rgba(0,102,251,1) 100%);
+    background: radial-gradient(circle, rgba(157,157,171,1) 26%, rgba(0,102,251,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9d9dab",endColorstr="#0066fb",GradientType=1); /* Use the same color as the footer for the header background */
+    color: white; /* Text color for the header */
+    padding: 10px; /* Add padding to the header */
+    border-radius: 10px 10px 0 0; /* Rounded corners for the top */
+    width: 50%; /* Set header width to 50% */
+    margin: 0 auto; /* Center the header */
+}
+
+/* Sticky Footer */
+footer {
+    position: sticky;
+    bottom: 0;
+    background: rgb(157,157,171);
+    background: -moz-radial-gradient(circle, rgba(157,157,171,1) 26%, rgba(0,102,251,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(157,157,171,1) 26%, rgba(0,102,251,1) 100%);
+    background: radial-gradient(circle, rgba(157,157,171,1) 26%, rgba(0,102,251,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9d9dab",endColorstr="#0066fb",GradientType=1);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px; /* Rounded corners for the bottom */
+    width: 50%; /* Set footer width to 50% */
+    margin: 0 auto; /* Center the footer */
+}
